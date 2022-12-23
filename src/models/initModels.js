@@ -18,6 +18,9 @@ const initModels = () => {
     Users.hasMany(Participants)
     Participants.belongsTo(Users)
 
+    Conversations.hasMany(Messages)
+    Messages.belongsTo(Conversations)
+
     Conversations.hasMany(Participants)
     Participants.belongsTo(Conversations)
 }
