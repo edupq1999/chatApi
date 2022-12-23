@@ -57,14 +57,6 @@ const postRecoveryToken = (req, res) => {
         })
 }
 
-
-
-
-
-
-
-
-
 module.exports = {
     postLogin,
     postRecoveryToken
